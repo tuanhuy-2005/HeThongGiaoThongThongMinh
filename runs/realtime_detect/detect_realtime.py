@@ -10,7 +10,7 @@ import cv2
 
 
 
-model = YOLO("runs/detect/train/weights/best.pt")
+model = YOLO("D:\\smartTrafficWithYOLO\\runs\\detect\\train3\\weights\\best.pt")
 
 cap = cv2.VideoCapture(0)
 
@@ -26,7 +26,7 @@ while True:
         break
 
     # === Nhận dạng biển báo ===
-    results = model.predict(source=frame, stream=True, conf=0.5)
+    results = model.predict(source=frame, stream=True, conf=0.25)
 
     for r in results:
         for box in r.boxes:
@@ -55,7 +55,9 @@ while True:
 
     cv2.imshow("Smart Traffic System (Realtime)", frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    key = cv2.waitKey(1) & 0xFF
+    if key == ord('q') or key == 27:
+        print("🛑 Đang tắt hệ thống...")
         break
 
 cap.release()

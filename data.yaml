@@ -3,57 +3,57 @@ val: d:/smartTrafficWithYOLO/datasets/val/images
 test: d:/smartTrafficWithYOLO/datasets/test/images
 nc: 52
 names:
-- Pedestrian Crossing - Đường người đi bộ cắt ngang
-- Equal-level Intersection - Đường giao nhau (ngã ba bên phải)
-- No Entry - Cấm đi ngược chiều
-- Right Turn Only - Phải đi vòng sang bên phải
-- Intersection - Giao nhau với đường đồng cấp
-- Intersection with a non-priority road - Giao nhau với đường không ưu tiên
-- Danger zone on the left - Chỗ ngoặt nguy hiểm vòng bên trái
-- No Left Turn - Cấm rẽ trái
 - Bus Stop - Bến xe buýt
-- Roundabout - Nơi giao nhau chạy theo vòng xuyến
-- No Stopping and No Parking - Cấm dừng và đỗ xe
-- U-Turn Allowed - Chỗ quay xe
-- Lane Allocation - Biển gộp làn đường theo phương tiện
-- Slow Down - Đi chậm
-- No Trucks Allowed - Cấm xe tải
-- Narrow Road on the Right - Đường bị thu hẹp về phía phải
-- Height Limit - Giới hạn chiều cao
-- No U-Turn - Cấm quay đầu
-- No Passenger Cars and Trucks - Cấm ô tô khách và ô tô tải
-- No U-Turn and No Right Turn - Cấm rẽ phải và quay đầu
-- No Cars Allowed - Cấm ô tô
-- Narrow Road on the Left - Đường bị thu hẹp về phía trái
-- Uneven Road - Gồ giảm tốc phía trước
-- No Two or Three-wheeled Vehicles - Cấm xe hai và ba bánh
-- Customs Checkpoint - Kiểm tra
-- Motorcycles Only - Chỉ dành cho xe máy*
-- Obstacle on the Road - Chướng ngoại vật phía trước
 - Children Present - Trẻ em
-- Trucks and Containers - Xe tải và xe công*
-- No Motorcycles Allowed - Cấm mô tô và xe máy
-- Trucks Only - Chỉ dành cho xe tải*
-- Road with Surveillance Camera - Đường có camera giám sát
-- No Right Turn - Cấm rẽ phải
+- Customs Checkpoint - Kiểm tra
+- Danger zone on the left - Chỗ ngoặt nguy hiểm vòng bên trái
+- Danger zone on the right - Chỗ ngoặt nguy hiểm vòng bên phải
 - Double curve first to right - Nhiều chỗ ngoặt nguy hiểm liên tiếp, chỗ đầu tiên
   sang phải
-- No Containers Allowed - Cấm xe sơ-mi rơ-moóc
-- No Left or Right Turn - Cấm rẽ trái và phải
-- No Straight and Right Turn - Cấm đi thẳng và rẽ phải
+- Equal-level Intersection - Đường giao nhau (ngã ba bên phải)
+- Height Limit - Giới hạn chiều cao
+- Intersection - Giao nhau với đường đồng cấp
 - Intersection with T-Junction - Đường giao nhau (ngã ba bên trái)
+- Intersection with a non-priority road - Giao nhau với đường không ưu tiên
+- Lane Allocation - Biển gộp làn đường theo phương tiện
+- Left Turn - Các xe chỉ được rẽ trái
+- Level Crossing with Barriers - Giao nhau với đường sắt có rào chắn
+- Low Clearance - Chiều cao tĩnh không thực tế
+- Motorcycles Only - Chỉ dành cho xe máy*
+- Narrow Road on the Left - Đường bị thu hẹp về phía trái
+- Narrow Road on the Right - Đường bị thu hẹp về phía phải
+- No Cars Allowed - Cấm ô tô
+- No Containers Allowed - Cấm xe sơ-mi rơ-moóc
+- No Entry - Cấm đi ngược chiều
+- No Left Turn - Cấm rẽ trái
+- No Left or Right Turn - Cấm rẽ trái và phải
+- No Motorcycles Allowed - Cấm mô tô và xe máy
+- No Parking - Cấm đỗ xe
+- No Passenger Cars and Trucks - Cấm ô tô khách và ô tô tải
+- No Right Turn - Cấm rẽ phải
+- No Stopping and No Parking - Cấm dừng và đỗ xe
+- No Straight and Right Turn - Cấm đi thẳng và rẽ phải
+- No Trucks Allowed - Cấm xe tải
+- No Two or Three-wheeled Vehicles - Cấm xe hai và ba bánh
+- No U-Turn - Cấm quay đầu
+- No U-Turn and No Left Turn - Cấm rẽ trái và quay đầu xe
+- No U-Turn and No Right Turn - Cấm rẽ phải và quay đầu
+- No U-Turn for Cars - Cấm ô tô quay đầu xe (được rẽ trái)
+- Obstacle on the Road - Chướng ngoại vật phía trước
+- One-way street - Đường một chiều
+- Other Danger - Nguy hiểm khác
+- Pedestrian Crossing - Đường người đi bộ cắt ngang
+- Right Turn Only - Phải đi vòng sang bên phải
+- Road with Surveillance Camera - Đường có camera giám sát
+- Roundabout - Nơi giao nhau chạy theo vòng xuyến
+- Slow Down - Đi chậm
+- Speed limit (40km/h) - Giới hạn tốc độ (40km/h)
 - Speed limit (50km/h) - Giới hạn tốc độ (50km/h)
 - Speed limit (60km/h) - Giới hạn tốc độ (60km/h)
 - Speed limit (80km/h) - Giới hạn tốc độ (80km/h)
-- Speed limit (40km/h) - Giới hạn tốc độ (40km/h)
-- Left Turn - Các xe chỉ được rẽ trái
-- Low Clearance - Chiều cao tĩnh không thực tế
-- Other Danger - Nguy hiểm khác
-- One-way street - Đường một chiều
-- No Parking - Cấm đỗ xe
-- No U-Turn for Cars - Cấm ô tô quay đầu xe (được rẽ trái)
-- Level Crossing with Barriers - Giao nhau với đường sắt có rào chắn
-- No U-Turn and No Left Turn - Cấm rẽ trái và quay đầu xe
-- Danger zone on the right - Chỗ ngoặt nguy hiểm vòng bên phải
+- Trucks Only - Chỉ dành cho xe tải*
+- Trucks and Containers - Xe tải và xe công*
+- U-Turn Allowed - Chỗ quay xe
+- Uneven Road - Gồ giảm tốc phía trước
 - 'Warning: Obstacle ahead – pass on the right - Chú ý chướng ngại vật – vòng tránh
   sang bên phải'
